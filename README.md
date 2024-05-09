@@ -7,8 +7,11 @@
 **Dataset Description:**
 
   Total Images: 9825
+  
   Total Annotated Objects: 78,943
+  
   Classes: auto_rickshaw, bicycle, bus, car, cart_vehicle, construction_vehicle, motorbike, person, priority_vehicle, three_wheeler, train, truck, wheelchair
+  
 **Data Collection:**
 
   All images were collected to simulate real-world driving scenarios in Bangladesh, ensuring authenticity and practical applicability for autonomous vehicles.
@@ -16,13 +19,16 @@
 **File Structure:**
 
   train.csv: CSV file containing image IDs and corresponding prediction strings.
+
   images: Directory containing the dataset images.
+  
 **Usage:**
 
     Clone the repository.
     Install the necessary dependencies.
     Load and explore the dataset using Python or your preferred data analysis tool.
     Develop and train object detection models using the provided dataset.
+    
 **Acknowledgements:**
 
     This dataset was collected and annotated as part of the efforts to advance object detection technology for safer driving experiences in Bangladesh.
